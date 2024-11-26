@@ -1,0 +1,10 @@
+name: Hello World
+on: [push]
+jobs: 
+    Hello-world:
+      runs-on: ubuntu-latest
+      steps:
+        - name: "My first command"
+          run: echo "Nastia"
+        
+    
