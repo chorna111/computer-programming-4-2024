@@ -13,7 +13,7 @@ jobs:
       - name: "Run maven test"
         run: mvn -DskipTests package
       - run: ls -la target/
-
+      - run: mv target/*.jar target/app.jar
       
     
 
